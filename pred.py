@@ -19,9 +19,16 @@ if not cap.isOpened():
     exit()
 
 gesture_to_word = {
-    'A': 'Apple',
-    'B': 'Banana',
-    'C': 'Cat'
+    'A': 'Help',
+    'B': 'peace',
+    'C': 'I love you',
+    'D': 'stand',
+    'E':'sit',
+    'F':'water',
+    'G':'stop',
+    'H':'i agree',
+    'I':'Namaste',
+    'J':'OK'
 }
 output_file = 'recognized_gestures.txt'
 last_gesture = None

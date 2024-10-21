@@ -74,6 +74,21 @@ while True:
                 save_keypoints(keypoints, 'B')
             elif key == ord('c'):
                 save_keypoints(keypoints, 'C')
+            elif key == ord('d'):
+                save_keypoints(keypoints, 'D')
+            elif key == ord('e'):
+                save_keypoints(keypoints, 'E')
+            elif key == ord('f'):
+                save_keypoints(keypoints, 'F')
+            elif key == ord('g'):
+                save_keypoints(keypoints, 'G')
+            elif key == ord('h'):
+                save_keypoints(keypoints, 'H')
+            elif key == ord('i'):
+                save_keypoints(keypoints, 'I')
+            elif key == ord('j'):
+                save_keypoints(keypoints, 'J')
+            
     cv2.imshow("Hand Landmark Detection", frame)
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
